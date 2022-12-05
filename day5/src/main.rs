@@ -5,7 +5,7 @@ use std::{collections::VecDeque, path::PathBuf, str::FromStr};
 use structopt::StructOpt;
 
 #[derive(Debug, StructOpt)]
-#[structopt(name = "day4", about = "Advent of Code Day 4")]
+#[structopt(name = "day5", about = "Advent of Code Day 5")]
 struct Args {
     #[structopt(parse(from_os_str), default_value = "./input")]
     input_file: PathBuf,
